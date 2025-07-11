@@ -1,0 +1,72 @@
+/* common css */
+.font{
+    font-family: "Raleway", sans-serif;
+}
+.margin{
+    margin: 0 auto;
+    padding: 0;
+}
+.color{
+    color: rgb(78, 71, 255);
+}
+.color1{
+    color: white;
+}
+.bgcolor{
+    background-color:rgb(78, 71, 255);
+}
+/* cover css+navbar */
+.container{
+    position: relative;
+}
+ .position1{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+ }
+ .position2{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+ }
+ .position3{
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    right: 220px;
+
+ }
+ .position4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.txt-1{
+    font-size: 34px;
+    font-weight: 900;
+}
+.txt-2{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+.btn-1{
+    border-radius: 5%;
+    padding: 12px 36px 12px 36px;
+    border-color: blue;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-2{
+    width: 174px;
+    height: 48px;
+    border-radius: 5%;
+    border-color: blue;
+    font-size: 16px;
+    font-weight: 700;
+}
+.style1{
+    max-width: 100%;
+}
