@@ -22,9 +22,16 @@
 .display2{
     justify-content: space-around;
 }
+.display3{
+    justify-content: left;
+}
+.gap1{
+    gap: 20px;
+}
 .align{
     text-align: center;
 }
+
 /* cover css+navbar */
 .container{
     position: relative;
@@ -118,4 +125,31 @@
     font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
+}
+/* next part */
+.card-bg{
+    box-sizing: border-box;
+    border: 1px solid rgb(207, 194, 194);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    margin-right: 20px;
+}
+.stxt-7{
+    color: rgb(30, 30, 30);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+}
+.stxt-8{
+    color: rgb(30, 30, 30);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+.stxt-9{
+    color: rgb(117, 117, 117);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
 }
