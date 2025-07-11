@@ -5,7 +5,7 @@
 .margin{
     width: 100%;
     margin: 0 auto;
-    padding-top: 40px;
+    margin-top: 70px;
 }
 .color{
     color: rgb(78, 71, 255);
@@ -36,6 +36,9 @@
 }
 .margin2{
     margin-top: 20px;
+}
+.margin3{
+    padding-right: 20px;
 }
 
 /* cover css+navbar */
@@ -180,4 +183,19 @@
 .ex-1{
     width: 200px;
     height: 135px;
+}
+/* footer */
+.txt-4{
+    color: rgb(78, 71, 255);
+    font-family: Raleway;
+    font-size: 100px;
+    font-weight: 900;
+}
+.txt-stl{
+    text-decoration: none;
+}
+button:hover {
+  background-color: #FF6F61;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
