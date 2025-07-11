@@ -3,8 +3,9 @@
     font-family: "Raleway", sans-serif;
 }
 .margin{
+    width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 40px;
 }
 .color{
     color: rgb(78, 71, 255);
@@ -15,9 +16,14 @@
 .bgcolor{
     background-color:rgb(78, 71, 255);
 }
+.display{
+    display: flex;
+}
 /* cover css+navbar */
 .container{
     position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
  .position1{
     position: absolute;
@@ -69,4 +75,24 @@
 }
 .style1{
     max-width: 100%;
+}
+
+/* 2nd part */
+.body1{
+    justify-content: space-around;
+}
+.stxt-3{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+}
+.stxt-4{
+    color: rgba(37, 36, 50, 0.5);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+}
+.img1{
+    border-radius: 48px;
 }
